@@ -83,3 +83,14 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+
+defined('BOOTSTRAP_CSS')            OR define('BOOTSTRAP_CSS','https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css');
+defined('BOOTSTRAP_INTEGRITY')      OR define('BOOTSTRAP_INTEGRITY','sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr');
+defined('DATATABLES_CSS')           OR define('DATATABLES_CSS', 'https://cdn.datatables.net/2.3.3/css/dataTables.dataTables.css');
+defined('DATATABLES_BOOTSTRAP_CSS') OR define('DATATABLES_BOOTSTRAP_CSS', 'https://cdn.datatables.net/2.3.3/css/dataTables.bootstrap5.css');
+defined('BOOTSTRAP_JS')             OR define('BOOTSTRAP_JS', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js');
+defined('BOOTSTRAP_JS_INTEGRITY')   OR define('BOOTSTRAP_JS_INTEGRITY', 'sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q');
+defined('JQUERY')                   OR define('JQUERY','https://code.jquery.com/jquery-3.7.1.js');
+defined('DATATABLES_JS')            OR define('DATATABLES_JS', 'https://cdn.datatables.net/2.3.3/js/dataTables.js');
+defined('DATATABLES_BOOTSTRAP_JS')  OR define('DATATABLES_BOOTSTRAP_JS', 'https://cdn.datatables.net/2.3.3/js/dataTables.bootstrap5.js');
